@@ -88,8 +88,8 @@ Project includes stress_test.py script for benchmark test for 50 request for pro
 Results may vary from 4-5 sec to 1 sec for 50 requests.
 
 My results :
-```python stress_test.py
+```python stress_test.py```
 
 Proto : 1.25499987602
 Json : 1.22300004959
-```
+
