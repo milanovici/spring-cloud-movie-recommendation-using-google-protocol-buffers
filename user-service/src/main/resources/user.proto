@@ -1,0 +1,16 @@
+package proto;
+
+option java_package = "com.example.proto";
+option java_outer_classname = "UserProtos";
+
+message User {
+    required uint64 id = 1;
+    optional string name = 2;
+    optional string email = 3;
+	optional string password = 4;
+	optional string description = 5;
+	optional string birthDate = 6;
+	optional string favouriteColor = 7;
+	optional string phoneNumber = 8;
+	optional string sex = 9;
+}

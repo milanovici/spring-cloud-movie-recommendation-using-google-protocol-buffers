@@ -1,0 +1,15 @@
+package proto;
+
+option java_package = "com.example.proto";
+option java_outer_classname = "MovieProtos";
+
+message Movie {
+    required string id = 1;
+    optional uint64 movieId = 2;
+	optional string name = 3;
+    optional string createdDate = 4;
+}
+
+message MovieList {
+  repeated Movie movie = 1;
+}
