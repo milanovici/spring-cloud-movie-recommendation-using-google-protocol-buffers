@@ -12,11 +12,13 @@ The application includes the following microservices.
  * Recommendation Service
  * Recommendation Client Service
  
-The application includes .proto files for entities that are sent between services
+The application includes ```.proto``` files for entities that are sent between services
 
  * User
  * Movie
  * ReccomendationData
+ 
+Proto entities are created using ```protoc``` compiler which is included in project.
  
 Microservices communicate over network using Protocol Buffers, and for human readability 
 recommendation-client service convert protobuff to the JSON at the last endpoint.
