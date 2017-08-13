@@ -1,8 +1,6 @@
 # spring-cloud-movie-recommendation
 Spring Cloud Microservices - Movie Recommendation System using Google's Protocol Buffers
 
-This project is extended from [here](https://github.com/mdeket/spring-cloud-movie-recommendation).
-
 The application includes the following microservices.
 
  * Eureka Discovery Service
